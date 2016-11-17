@@ -315,38 +315,56 @@ h1 {
   width: 100%; }
 
 @media only screen and (min-width: 425px) {
-  h1 {
-    font-size: 3.052em; } }
-@media only screen and (min-width: 545px) {
-  h1 {
-    font-size: 3.815em; }
+    h1 {
+        font-size: 3.052em;
+    }
+}
 
-  .header-social {
-    position: absolute;
-    left: 350; } }
+@media only screen and (min-width:545px) {
+    h1 {
+        font-size: 3.815em;
+    }
+    .header-social {
+        position: absolute;
+        left: 350px;
+    }
+}
+
 @media only screen and (min-width: 760px) {
-  .header-social {
-    left: 490; } }
+    .header-social {
+        left: 490px;
+    }
+}
+
 @media only screen and (min-width: 860px) {
-  .header-social {
-    left: 560; } }
-@media only screen and (min-width: 1050px) {
-  h1 {
-    font-size: 4.768em; }
+    .header-social {
+        left: 560px;
+    }
+}
 
-  .header-social {
-    left: 700; }
+@media only screen and (min-width: 1050px){
+    h1 {
+        font-size: 4.768em;
+    }
+    .header-social {
+        left: 700px;
+    }
+    .header-social li {
+        margin-right: .4em;
+    }
+}
 
-  .header-social li {
-    margin-right: .4em; } }
-@media only screen and (min-width: 1310px) {
-  h1 {
-    font-size: 5.96em; }
 
-  .header-social {
-    left: 870; }
-
-  .header-social li {
-    margin-right: .8em; } }
+@media only screen and (min-width:1310px) {
+    h1 {
+        font-size: 5.96em;
+    }
+    .header-social {
+        left: 870px;
+    }
+    .header-social li {
+        margin-right: .8em;
+    }
+}
 
 /*# sourceMappingURL=styles.css.map */
