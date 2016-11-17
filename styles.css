@@ -54,7 +54,7 @@ table {
   src: url('league-spartan-master/LeagueSpartan-Bold.otf') format("opentype"); }
 @font-face {
   font-family: League Gothic;
-  src: local(webfonts/leaguegothic-regular-webfont.woff); }
+  src: url('LeagueGothic-CondensedRegular.otf') format("opentype"); }
 /* Layout basics for Hello Uncle Foreigner */
 body {
   background-color: #EDEBBC;
