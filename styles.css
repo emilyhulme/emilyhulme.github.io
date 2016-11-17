@@ -51,7 +51,7 @@ table {
 /* Global color, text variables for Hello Uncle Foreigner */
 @font-face {
   font-family: Spartan;
-  src: url('league-spartan-master/_webfonts/leaguespartan-bold.eot'); }
+  src: url('league-spartan-master/LeagueSpartan-Bold.otf'); }
 @font-face {
   font-family: League Gothic;
   src: local(webfonts/leaguegothic-regular-webfont.woff); }
