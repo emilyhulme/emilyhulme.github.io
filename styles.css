@@ -51,10 +51,10 @@ table {
 /* Global color, text variables for Hello Uncle Foreigner */
 @font-face {
   font-family: Spartan;
-  src: url(league-spartan-master/_webfonts/leaguespartan-bold.woff); }
+  src: local(league-spartan-master/_webfonts/leaguespartan-bold.woff); }
 @font-face {
   font-family: League Gothic;
-  src: url(league-gothic/webfonts/leaguegothic-regular-webfont.woff); }
+  src: local(webfonts/leaguegothic-regular-webfont.woff); }
 /* Layout basics for Hello Uncle Foreigner */
 body {
   background-color: #EDEBBC;
