@@ -158,7 +158,7 @@ img {
 .small, .med, .large, .half {
   display: none; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .small, .med, .large, .half {
     display: -webkit-box;
     display: -moz-box;
