@@ -304,44 +304,56 @@ footer:before {
 /* All header breakpoint styling comes at the end of the cascade
 Body breakpoints, changing em value, is done in _layout.scss */
 h1 {
-  font-size: 2.441em; }
+    font-size: 2.441em;
+}
 
 .logo {
-  position: relative; }
+    position: relative;
+}
 
 .header-social {
-  float: left; }
+    float: left;
+}
 
 .header-social li {
-  margin-right: .2em; }
+    margin-right: .2em;
+}
 
 .topNav {
-  width: 100%; }
+    width: 100%;
+}
 
-@media only screen and (min-width: 425px) {
+//min-width 545px
+@media only screen and (min-width:612px) {
     h1 {
         font-size: 3.052em;
     }
+    .header-social {
+        position: absolute;
+        left: 360px;
+    }
 }
 
-@media only screen and (min-width:545px) {
+@media only screen and (min-width:692px) {
     h1 {
         font-size: 3.815em;
     }
     .header-social {
         position: absolute;
-        left: 350px;
+        left: 450px;
     }
 }
 
 @media only screen and (min-width: 760px) {
     .header-social {
+        position: absolute;
         left: 490px;
     }
 }
 
 @media only screen and (min-width: 860px) {
     .header-social {
+        position: absolute;
         left: 560px;
     }
 }
@@ -351,6 +363,7 @@ h1 {
         font-size: 4.768em;
     }
     .header-social {
+        position: absolute;
         left: 700px;
     }
     .header-social li {
@@ -364,11 +377,11 @@ h1 {
         font-size: 5.96em;
     }
     .header-social {
+        position: absolute;
         left: 870px;
     }
     .header-social li {
         margin-right: .8em;
     }
 }
-
 /*# sourceMappingURL=styles.css.map */
