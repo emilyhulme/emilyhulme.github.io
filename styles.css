@@ -51,10 +51,10 @@ table {
 /* Global color, text variables for Hello Uncle Foreigner */
 @font-face {
   font-family: Spartan;
-  src: url('league-spartan-master/LeagueSpartan-Bold.otf') format("opentype"); }
+  src: url(league-spartan-master/_webfonts/leaguespartan-bold.woff); }
 @font-face {
   font-family: League Gothic;
-  src: url('LeagueGothic-CondensedRegular.otf') format("opentype"); }
+  src: url(league-gothic/webfonts/leaguegothic-regular-webfont.woff); }
 /* Layout basics for Hello Uncle Foreigner */
 body {
   background-color: #EDEBBC;
@@ -65,14 +65,14 @@ body {
   body {
     width: 80%; } }
 html {
-  font-size: 10px; }
+  font-size: 8px; }
+
 @media only screen and (min-device-width: 700px) {
-    html {
-        font-size: 13px;
-    }
-}
+  html {
+    font-size: 13px; } }
 @media only screen and (min-width: 700px) {
-  font-size: 13px; }
+  html {
+    font-size: 13px; } }
 @media only screen and (min-width: 760px) {
   html {
     font-size: 14px; } }
@@ -110,9 +110,6 @@ h2 {
 h3 {
   font-size: 1.25em;
   line-height: 1.5em; }
-
-.topNav li {
-  font-size: 1.5em; }
 
 @media only screen and (min-width: 1050px) {
   .topNav li {
@@ -198,19 +195,22 @@ img {
   margin-bottom: -0.1em;
   float: left; }
 
-@media only screen and (min-width: 545px) {
+@media only screen and (min-width: 690px) {
   .topNav {
     margin-bottom: 1em; } }
 .topNav li {
   margin-right: 1em; }
 
 header {
-  padding-bottom: 3.5em;
+  padding-bottom: 3em;
   margin-bottom: 2em;
   border-bottom: solid 5px #451118;
   position: relative; }
 
-@media only screen and (min-width: 545px) {
+@media only screen and (min-width: 430px) {
+  header {
+    padding-bottom: 3.5em; } }
+@media only screen and (min-width: 690px) {
   header {
     padding-bottom: 2em; } }
 @media only screen and (min-width: 1050px) {
@@ -236,6 +236,12 @@ header:after {
 .header-social {
   margin-top: .262em; }
 
+.logo {
+  margin-bottom: .1em; }
+
+@media only screen and (min-width: 430px) {
+  .logo {
+    margin-bottom: 0; } }
 /* Footer styling */
 footer {
   padding-top: 1.5em;
@@ -304,84 +310,65 @@ footer:before {
 /* All header breakpoint styling comes at the end of the cascade
 Body breakpoints, changing em value, is done in _layout.scss */
 h1 {
-    font-size: 2.441em;
-}
+  font-size: 1.953em; }
+
+.topNav li {
+  font-size: 1.25em; }
 
 .logo {
-    position: relative;
-}
+  position: relative; }
 
 .header-social {
-    float: left;
-}
+  float: left; }
 
 .header-social li {
-    margin-right: .2em;
-}
+  margin-right: .2em; }
 
 .topNav {
-    width: 100%;
-}
+  width: 100%; }
 
-//min-width 545px
-@media only screen and (min-width:612px) {
-    h1 {
-        font-size: 3.052em;
-    }
-    .header-social {
-        position: absolute;
-        left: 360px;
-    }
-}
+@media only screen and (min-width: 430px) {
+  h1 {
+    font-size: 2.441em; }
 
-@media only screen and (min-width:692px) {
-    h1 {
-        font-size: 3.815em;
-    }
-    .header-social {
-        position: absolute;
-        left: 450px;
-    }
-}
+  .topNav li {
+    font-size: 1.5em; } }
+@media only screen and (min-width: 470px) {
+  h1 {
+    font-size: 2.8em; } }
+@media only screen and (min-width: 550px) {
+  h1 {
+    font-size: 3.052em; } }
+@media only screen and (min-width: 690px) {
+  h1 {
+    font-size: 3.815em; }
 
+  .header-social {
+    position: absolute;
+    left: 450px; } }
 @media only screen and (min-width: 760px) {
-    .header-social {
-        position: absolute;
-        left: 490px;
-    }
-}
-
+  .header-social {
+    left: 490px; } }
 @media only screen and (min-width: 860px) {
-    .header-social {
-        position: absolute;
-        left: 560px;
-    }
-}
+  .header-social {
+    left: 560px; } }
+@media only screen and (min-width: 1050px) {
+  h1 {
+    font-size: 4.768em; }
 
-@media only screen and (min-width: 1050px){
-    h1 {
-        font-size: 4.768em;
-    }
-    .header-social {
-        position: absolute;
-        left: 700px;
-    }
-    .header-social li {
-        margin-right: .4em;
-    }
-}
+  .header-social {
+    left: 700px; }
 
+  .header-social li {
+    margin-right: .4em; } }
+@media only screen and (min-width: 1310px) {
+  h1 {
+    font-size: 5.96em; }
 
-@media only screen and (min-width:1310px) {
-    h1 {
-        font-size: 5.96em;
-    }
-    .header-social {
-        position: absolute;
-        left: 870px;
-    }
-    .header-social li {
-        margin-right: .8em;
-    }
-}
+  .header-social {
+    left: 870px; }
+
+  .header-social li {
+    margin-right: .8em; } }
+
 /*# sourceMappingURL=styles.css.map */
