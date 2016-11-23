@@ -322,7 +322,7 @@ h1 {
   float: left; }
 
 .header-social li {
-  margin-right: .2em; }
+  margin-right: 1em; }
 
 .topNav {
   width: 100%; }
@@ -342,10 +342,11 @@ h1 {
 @media only screen and (min-width: 690px) {
   h1 {
     font-size: 3.815em; }
-
   .header-social {
-    position: absolute;
-    left: 450px; } }
+     position: absolute;
+     left: 450px; } 
+  .header-social li {
+     margin-right: .2em; }}
 @media only screen and (min-width: 760px) {
   .header-social {
     left: 490px; } }
