@@ -51,10 +51,10 @@ table {
 /* Global color, text variables for Hello Uncle Foreigner */
 @font-face {
   font-family: Spartan;
-  src: url('league-spartan-master/LeagueSpartan-Bold.otf') format("opentype"); }
+  src: url(league-spartan-master/_webfonts/leaguespartan-bold.woff); }
 @font-face {
   font-family: League Gothic;
-  src: url('LeagueGothic-CondensedRegular.otf') format("opentype"); }
+  src: url(league-gothic/webfonts/leaguegothic-regular-webfont.woff); }
 /* Layout basics for Hello Uncle Foreigner */
 body {
   background-color: #EDEBBC;
@@ -197,26 +197,18 @@ img {
 
 @media only screen and (min-width: 690px) {
   .topNav {
-    margin-bottom: 1em; } }
+    margin-bottom: .4em; } }
 .topNav li {
   margin-right: 1em; }
 
-header {
-  padding-bottom: 3.5em;
+.topNav-div {
+  width: 100%;
+  float: left;
   margin-bottom: 2em;
   border-bottom: solid 5px #451118;
   position: relative; }
 
-@media only screen and (min-width: 430px) {
-  header {
-    padding-bottom: 3.5em; } }
-@media only screen and (min-width: 690px) {
-  header {
-    padding-bottom: 2em; } }
-@media only screen and (min-width: 1050px) {
-  header {
-    padding-bottom: 2.5em; } }
-header:after {
+.topNav-div:after {
   content: '';
   border-bottom: solid 2px #451118;
   width: 100%;
@@ -319,7 +311,8 @@ h1 {
   position: relative; }
 
 .header-social {
-  float: left; }
+  float: left;
+  margin-bottom: .4em; }
 
 .header-social li {
   margin-right: 2em; }
@@ -342,11 +335,13 @@ h1 {
 @media only screen and (min-width: 690px) {
   h1 {
     font-size: 3.815em; }
+
   .header-social {
-     position: absolute;
-     left: 450px; } 
+    position: absolute;
+    left: 450px; }
+
   .header-social li {
-     margin-right: .2em; }}
+    margin-right: .2em; } }
 @media only screen and (min-width: 760px) {
   .header-social {
     left: 490px; } }
