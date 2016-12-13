@@ -65,20 +65,32 @@ body {
   body {
     width: 80%; } }
 /*html {
-  font-size: 8px; }
+    font-size: 8px;
+}
 
 @media only screen and (min-device-width: 700px) {
-  html {
-    font-size: 13px; } }
+    html {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (min-width: 700px) {
-  html {
-    font-size: 13px; } }
+    html {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (min-width: 760px) {
-  html {
-    font-size: 14px; } }
+    html {
+        font-size: 14px;
+    }
+}
+
 @media only screen and (min-width: 860px) {
-  html {
-    font-size: 16px; } } */
+    html {
+        font-size: 16px;
+    }
+}*/
 /* All textual relative size and color styling */
 h1, h2, h3, h4, h5, h6, p, a, li, figcaption {
   color: #451118; }
@@ -104,19 +116,6 @@ a:visited {
 header li, .articleFoot-tags li, footer li {
   display: inline; }
 
-h2 {
-  font-size: 1.953em; }
-
-h3 {
-  font-size: 1.25em;
-  line-height: 1.5em; }
-
-@media only screen and (min-width: 1050px) {
-  .topNav li {
-    font-size: 1.953em; }
-
-  .topNav {
-    margin-top: -.262em; } }
 p {
   font-size: 1.25em;
   margin-bottom: .64em;
@@ -195,7 +194,7 @@ img {
   margin-bottom: -0.1em;
   float: left; }
 
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 760px) {
   .topNav {
     margin-bottom: .4em; } }
 .topNav li {
@@ -226,7 +225,7 @@ img {
   font-size: 1.2em; }
 
 .header-social {
-  margin-top: .262em; }
+  margin-top: .131em; }
 
 .logo {
   margin-bottom: .1em; }
@@ -302,13 +301,27 @@ footer:before {
 /* All header breakpoint styling comes at the end of the cascade
 Body breakpoints, changing em value, is done in _layout.scss */
 h1 {
-  font-size: 1.953em; }
+  font-size: 1.563em; }
+
+h2 {
+  font-size: 1.563em; }
+
+h3 {
+  font-size: 1em;
+  line-height: 1.25em; }
 
 .topNav li {
-  font-size: 1.25em; }
+  font-size: 1em; }
 
+@media only screen and (min-width: 1050px) {
+  .topNav li {
+    font-size: 1.953em; }
+
+  .topNav {
+    margin-top: -.262em; } }
 .logo {
-  position: relative; }
+  position: relative;
+  margin-bottom: .262em; }
 
 .header-social {
   float: left;
@@ -320,32 +333,50 @@ h1 {
 .topNav {
   width: 100%; }
 
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 426px) {
+  h1 {
+    font-size: 1.953em; }
+
+  h2 {
+    font-size: 1.953em; }
+
+  .logo {
+    margin-bottom: 0; } }
+@media only screen and (min-width: 530px) {
   h1 {
     font-size: 2.441em; }
 
   .topNav li {
+    font-size: 1.25em; }
+
+  h3 {
+    font-size: 1.25em;
+    line-height: 1.5em; } }
+@media only screen and (min-width: 663px) {
+  h1 {
+    font-size: 2.8em; }
+
+  .topNav li {
     font-size: 1.5em; } }
-@media only screen and (min-width: 470px) {
-  h1 {
-    font-size: 2.8em; } }
-@media only screen and (min-width: 550px) {
-  h1 {
-    font-size: 3.052em; } }
+/* @media only screen and (min-width:550px) {
+    h1 {
+        font-size: 3.052em;
+    }
+} */
 @media only screen and (min-width: 690px) {
   h1 {
-    font-size: 3.815em; }
-
+    font-size: 3.052em; } }
+@media only screen and (min-width: 760px) {
   .header-social {
     position: absolute;
-    left: 450px; }
+    left: 445px; }
 
   .header-social li {
     margin-right: .2em; } }
-@media only screen and (min-width: 760px) {
-  .header-social {
-    left: 490px; } }
 @media only screen and (min-width: 860px) {
+  h1 {
+    font-size: 3.815em; }
+
   .header-social {
     left: 560px; } }
 @media only screen and (min-width: 1050px) {
