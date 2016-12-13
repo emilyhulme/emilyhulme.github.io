@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6, figcaption, .date, .topNav li, .articleFoot-tags li {
   font-family: Spartan; }
 
 figcaption {
-  font-family: "League Gothic"; }
+  font-family: Spartan; }
 
 a, a:active, a:visited {
   text-decoration: none; }
@@ -128,7 +128,7 @@ p {
   margin-right: .64em; }
 
 figcaption {
-  font-size: 1em;
+  font-size: .64em;
   margin-bottom: 1em;
   line-height: 1.25em; }
 
