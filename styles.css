@@ -251,20 +251,25 @@ footer:before {
 .footer-col h4 {
   margin-bottom: .262em; }
 
+.footer-col {
+   width: 100%;
+   margin-bottom: 1em;}
+
 .footer-about {
-  width: 40%;
   float: left;
-  margin-right: 10%;
-  margin-bottom: 40px; }
+  margin-right: 10%;}
 
 .footer-list {
-  width: 45%;
-  float: left;
-  margin-bottom: 1em; }
+  float: left;}
 
 @media only screen and (min-width: 495px) {
-   .footer-col {
-      width: 100%;}}
+    .footer-about {
+        width: 100%;
+    }
+    .footer-list {
+        width: 50%;
+    }
+}
 @media only screen and (min-width: 815px) {
   .footer-about {
     width: 40%;
@@ -279,6 +284,7 @@ footer:before {
 
 .footer-list li {
   display: list-item;
+  list-style-position: inside;
   font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
   font-size: 1.25em;
   line-height: 1.2em; }
